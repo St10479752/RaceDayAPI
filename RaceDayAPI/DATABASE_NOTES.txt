@@ -1,0 +1,23 @@
+﻿RaceDayAPI Database Documentation
+
+1. Database Management
+   The project uses Microsoft SQL Server to store and manage race day information.
+
+2. Database Tables
+
+* User: Stores user account information.
+* Participant: Stores participant information.
+* Organiser: Stores event organiser information.
+* Category: Stores race categories.
+* Event: Stores event information.
+* EventEnrollment: Stores participant event enrolments.
+* Result: Stores race results.
+
+3. Entity Framework Core
+   Entity Framework Core connects the application to SQL Server through RaceDayDbContext.
+
+4. Database Relationships
+   The database uses primary keys and foreign keys to connect related records and maintain data integrity.
+
+5. Database Purpose
+   The database supports the storage and management of users, participants, organisers, categories, events, enrolments, and results.
