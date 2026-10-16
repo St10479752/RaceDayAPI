@@ -20,3 +20,5 @@ GitHub Actions automatically builds the project and runs unit tests when changes
 ## Successful Build
 
 The screenshot of the successful GitHub Actions build will be added to this repository.
+![GitHub Actions successful build](github-actions-green-build.png)
+
