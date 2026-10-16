@@ -10,8 +10,7 @@ namespace RaceDayAPI.Tests
             Assert.True(true);
         }
 
-
-    [Fact]
+        [Fact]
         public void UserEmail_ShouldNotBeEmpty()
         {
             string email = "student@example.com";
@@ -28,6 +27,16 @@ namespace RaceDayAPI.Tests
                 role == "Participant" || role == "Organiser"
             );
         }
-    }
 
+        [Fact]
+        public void UserRole_ShouldRejectInvalidRole()
+        {
+            string role = "Admin";
+
+            Assert.False(
+                role == "Participant" || role == "Organiser"
+            );
+        }
+    }
 }
+
