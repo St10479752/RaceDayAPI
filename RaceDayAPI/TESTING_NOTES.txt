@@ -1,0 +1,22 @@
+﻿RaceDayAPI Testing Documentation
+
+1. Testing Framework
+   The project uses xUnit to create and run unit tests.
+
+2. Test Project
+   The unit tests are stored in the RaceDayAPI.Tests project.
+
+3. Email Validation Test
+   This test checks that an email value is not empty or made up only of whitespace.
+
+4. User Role Validation Test
+   This test checks that the user role is either Participant or Organiser.
+
+5. Test Execution
+   Tests are executed using the Visual Studio Test Explorer.
+
+6. Continuous Integration
+   GitHub Actions automatically builds the application and runs the available tests after changes are pushed to GitHub.
+
+7. Test Results
+   The three current unit tests passed in Visual Studio Test Explorer.
