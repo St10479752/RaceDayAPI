@@ -1,0 +1,22 @@
+﻿RaceDayAPI Project Notes
+
+1. Project Overview
+   RaceDayAPI is an ASP.NET Core Web API designed to manage race day information.
+
+2. Technologies Used
+
+* C#
+* ASP.NET Core Web API
+* SQL Server
+* Entity Framework Core
+* xUnit for unit testing
+* GitHub Actions for automated builds and tests
+
+3. Database
+   The project uses SQL Server to store and manage data. The database includes Users, Participants, Organisers, Categories, Events, EventEnrollments, and Results.
+
+4. Testing
+   The project includes an xUnit test project called RaceDayAPI.Tests. Unit tests are run to check basic email and role validation conditions.
+
+5. Continuous Integration
+   GitHub Actions automatically builds the project and runs the unit tests when changes are pushed to GitHub.
