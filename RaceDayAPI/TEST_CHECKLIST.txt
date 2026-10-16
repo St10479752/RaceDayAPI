@@ -1,0 +1,9 @@
+﻿RaceDayAPI Test Checklist
+
+1. Confirm that the solution builds successfully.
+2. Open Test Explorer in Visual Studio.
+3. Run all available unit tests.
+4. Confirm that all tests pass.
+5. Check the GitHub Actions workflow after pushing changes.
+6. Confirm that the latest workflow run displays a green tick.
+7. Review any failed tests and fix errors before submission.
