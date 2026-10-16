@@ -1,0 +1,19 @@
+﻿RaceDayAPI Endpoint Documentation
+
+1. Introduction
+   RaceDayAPI is an ASP.NET Core Web API for managing race day information.
+
+2. User Endpoints
+   The Users controller provides endpoints for user registration and login.
+
+3. Registration
+   The registration endpoint allows users to create accounts by providing their first name, last name, email, password, and role.
+
+4. Login
+   The login endpoint allows registered users to attempt to sign in using their email and password.
+
+5. Data Validation
+   The application checks that required user information is provided and that the role is either Participant or Organiser.
+
+6. API Testing
+   The API endpoints can be explored and tested using Swagger when the application is running.
